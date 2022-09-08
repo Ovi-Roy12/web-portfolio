@@ -52,7 +52,7 @@ section{
   height: 500px;
 }
 .top-banner{
-  background: url(file:///H:/Web%20Developement/Project/Web-Portfolio/Images/top-banner.png) no-repeat; 
+  background: url(/Images/top-banner.png) no-repeat; 
 }
 
 .social-link{
@@ -122,7 +122,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .top-banner-2{
-  background: url(file:///H:/Web%20Developement/Project/Web-Portfolio/Images/dream-bg.png) no-repeat; 
+  background: url(/Images/dream-bg.png) no-repeat; 
   background-position: center;
   background-position: right;
 
@@ -172,7 +172,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .experience{
-  background: url(file:///H:/Web%20Developement/Project/Web-Portfolio/Images/exp-bg.png) no-repeat;
+  background: url(/Images/exp-bg.png) no-repeat;
   background-position: left; 
 }
 

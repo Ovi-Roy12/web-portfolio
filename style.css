@@ -5,11 +5,14 @@
 }
 
 body{
-  font-family: 'Noto Sans', sans-serif;
+  font-family: f;
+  font-size: 17px;
+
 }
 
 .half-width h1{
   font-size: 50px;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 .heading-txt{
@@ -23,6 +26,7 @@ body{
 
 .half-width h3{
   margin-top: 10px;
+  font-family: 'Noto Sans', sans-serif;
 }
 .my-pic{
   width: 600px;
@@ -40,4 +44,152 @@ body{
 .half-width p{
   padding: 20px 0px;
   text-align: justify;
+  line-height: 25px;
+  font-weight: bold;
+}
+
+section{
+  height: 500px;
+}
+.top-banner{
+  background: url(file:///H:/Web%20Developement/Project/Web-Portfolio/Images/top-banner.png) no-repeat; 
+}
+
+.social-link{
+background-image: linear-gradient(45deg, lightsalmon, tomato);
+padding: 10px 20px;
+border-radius: 5px;
+color: white;
+text-decoration: none;
+font-weight: bold;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.social-link:hover{
+  background-image: linear-gradient(45deg, rgb(145, 47, 9), tomato);
+}
+.link-button{
+  margin-top: 10px;
+}
+
+
+.my-pic2{
+  width: 610px;
+  height: 480px;
+ 
+}
+
+.half-width2{
+  width: 40%;
+  float: left;
+  margin-left: 70px;
+}
+
+.half-width2 p{
+  padding: 10px 0;
+  text-align: justify;
+  margin-left: 120px;
+  line-height: 25px;
+  font-weight: bold;
+}
+
+.heading-txt2{
+  margin-top: 60px;
+  margin-left: 120px;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 30px;
+}
+
+.heading-txt2 h4{
+  padding: 10px 0px;
+}
+
+.resume-link{
+background-image: linear-gradient(45deg, lightsalmon, tomato);
+padding: 10px 20px;
+border-radius: 5px;
+color: white;
+text-decoration: none;
+font-weight: bold;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.resume-link:hover{
+  background-image: linear-gradient(45deg, rgb(145, 47, 9), tomato);
+}
+.link-button2{
+  margin-top: 20px;
+  margin-left: 120px;
+}
+
+.top-banner-2{
+  background: url(file:///H:/Web%20Developement/Project/Web-Portfolio/Images/dream-bg.png) no-repeat; 
+  background-position: center;
+  background-position: right;
+
+}
+
+.experience{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+.experience h1{
+  margin-top: 50px;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+.half-width3{
+  width: 40%;
+  float: left;
+  margin-left: 90px;
+  padding: 30px 10px;
+}
+.half-width3 h2{
+  font-size: 25px;
+}
+
+.half-width3 h3{
+  color: orange;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  
+}
+
+.half-width3 p{
+  text-align: justify;
+  padding: 20px 0px;
+  font-size: 20px;
+  line-height: 25px;
+  font-family: f;
+}
+
+.box-1, .box-2{
+  margin-top: 40px;
+  box-shadow: 10px 10px 40px gray;
+  height: 50vh;
+}
+
+.experience{
+  background: url(file:///H:/Web%20Developement/Project/Web-Portfolio/Images/exp-bg.png) no-repeat;
+  background-position: left; 
+}
+
+#front-end{
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, rgb(145, 47, 9), tomato);
+  border-image-slice: 2;
+}
+
+#back-end{
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, blue, cyan);
+  border-image-slice: 2;
+}
+
+footer p{
+  text-align: center;
+  text-decoration: dotted;
+  font-size: 12px;
 }
